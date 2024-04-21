@@ -119,7 +119,7 @@ h2 {
     display: grid;
     justify-content: center;
     align-items: center;
-    padding: 0.8rem;
+    padding: 0.4rem;
     font-size: 1rem;
     font-weight: 300;
 }
@@ -160,6 +160,7 @@ h2 {
     width: 100%;
     font-size: 0.8rem;
     font-weight: 300;
+    color: #ffffff;
 }
 
 @media screen and (max-aspect-ratio: 1/1) {
@@ -225,7 +226,7 @@ h2 {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         text-decoration: none;
-        color: black;
+        color: white;
     }
     .foot {
         height: 40px;
@@ -234,7 +235,7 @@ h2 {
         font-size: 0.8rem;
     }
     h2 {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         font-weight: 100;
     }
     .copy {

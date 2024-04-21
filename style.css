@@ -57,7 +57,7 @@ body {
     justify-content: space-between;
     width: 100%;
     height: 80px;
-    background: #D2D764;
+    background: #8c64a0;
 }
 
 .head2 {
@@ -145,6 +145,18 @@ button {
     color: black;
 }
 
+#b4 {
+    background-color: #D2D764;
+}
+
+#b4a {
+    background-color: #D2D764;
+}
+
+#b5 {
+    background-color: #D2D764;
+}
+
 .b1color:hover {
     background: #D2D764;
 }
@@ -229,6 +241,9 @@ h2 {
 #ham4 {
     display: none;
 }
+#ham4a {
+    display: none;
+}
 #ham5 {
     display: none;
 }
@@ -303,6 +318,15 @@ h2 {
         width: max-content;
         background: #999999;
     }
+    #ham4a:checked ~ .menu {
+        display: flex;
+        position: relative;
+        z-index: 1;
+        right: calc(100vw - 56px);
+        bottom: 5px;
+        width: max-content;
+        background: #999999;
+    }
     #ham5:checked ~ .menu {
         display: flex;
         position: relative;
@@ -313,7 +337,7 @@ h2 {
         background: #999999;
     }
     .m1 {
-        background-color: #D2D764 !important;
+        background-color: #8c64a0 !important;
     }
     .m2 {
         background-color: #F07850 !important;
@@ -333,7 +357,7 @@ h2 {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         text-decoration: none;
-        color: black;
+        color: white;
     }
     .foot1 {
         height: 40px;
@@ -380,17 +404,36 @@ h2 {
     #b2d {
         top: 3rem;
     } */
+    #result {
+        position: relative; 
+        left: 5%; 
+        width: 90%;
+        box-shadow: 2px 3px 5px 3px #888888;
+        -webkit-box-shadow: 2px 3px 5px 3px #888888;
+        -moz-box-shadow: 2px 3px 5px 3px #888888;
+        -o-box-shadow: 2px 3px 5px 3px #888888;
+    }
     #down {
-        width: 100%;
+        width: 90%;
+        margin-top: 30px;
+        margin-bottom: 15px;
         transform: translate(-50%);
+        background-color: #465aaa;
+        color: #ffffff;
     }
     #home {
-        width: 100%;
+        width: 90%;
+        margin-bottom: 15px;
         transform: translate(-50%);
+        background-color: #465aaa;
+        color: #ffffff;
     }
     .re {
-        width: 100%;
+        width: 90%;
+        margin-bottom: 15px;
         transform: translate(-50%);
+        background-color: #465aaa;
+        color: #ffffff;
     }
 }
 
