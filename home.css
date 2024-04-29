@@ -216,6 +216,7 @@ h2 {
         bottom: 5px;
         width: max-content;
         background: #999999;
+        opacity: 0.75;
     }
     li {
         width: 100vw;
